@@ -30,10 +30,10 @@ h2{
 hr{
 	margin: 20px 0;
 }
-h4{
+.h4{
 	font-family: "Open Sans", 'Arial', sans-serif;
 	font-size: 12px;
-	text-transform: uppercase;\
+	text-transform: uppercase;
 }
 .name{
 	font-family: "Open Sans", 'Arial', sans-serif;
@@ -42,19 +42,24 @@ h4{
 	padding-top: 5px;
 	font-weight: bold;
 }
+.address{
+	float: left;
+}
 .author-photo{
 	position: relative;
 	left: 210px;
 	bottom: 25px;
 }
 .links{
-	position: relative;
-	bottom: 47px;
-	left: 615px;
+	float: right;
+	margin-top: 20px;
+}
+.links a:hover{
+	color: gray;
 }
 .links li{
 	display: inline-block;
-	padding-right: 15px;
+	padding-left: 15px;
 }
 .main{
 	width: 700px;
@@ -96,6 +101,9 @@ h4{
 	text-transform: uppercase;
 	display: block;
 }
+.main a:hover{
+	color: #2ecc71;
+}
 .main i{
 	display: block;
 	margin-bottom: 5px;
@@ -117,6 +125,10 @@ h4{
 	width: 200px;
 	text-align: center;
 	line-height: 55px;
+}
+.button:hover{
+	color: #fff;
+	background-color: #2ecc71;
 }
 .col-1{
 	background: url('../img/image1.jpg');
@@ -147,6 +159,9 @@ h4{
 	font-size: 35px;
 	line-height: 40px;
 	font-weight: normal;
+}
+.footer a:hover{
+	color: gray;
 }
 .footer h4{
 	font-family: "Gentium Book Basic", 'Times New Roman', serif;
